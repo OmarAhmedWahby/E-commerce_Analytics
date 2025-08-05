@@ -1,16 +1,28 @@
-# 🛍️ E-Commerce Performance Dashboard (Q1 2025)
+# 🛍️ E-Commerce Sales Analysis (Jan–May 2025)
 
-This project is a **data analytics dashboard** for an E-Commerce platform, covering performance insights for the first 4+ months of 2025. It was built using **Power BI**, with a strong focus on extracting meaningful business insights from key performance indicators (KPIs).
+This project presents a business intelligence dashboard for an E-Commerce platform, analyzing sales, customer behavior, and operational performance over the first 4+ months of 2025. The analysis was conducted using Power BI, focusing on modeling, segmentation, and uncovering KPIs to support business decisions.
 
 ---
 
-## 📊 Dashboard Objectives
+## 🎯 Project Objectives
 
-- Track **Net Revenue**, **Orders**, and **Customer Metrics**
-- Monitor **Order Cancellations**, **Returns**, and **Lost Revenue**
-- Analyze **Customer Segments** and **Top Performing Products**
-- Understand product stock issues and supplier return rates
-- Explore **Customer Behavior**, **Retention**, and **Average Order Value (AOV)**
+- Track sales performance and revenue trends
+- Identify top product categories and customer segments
+- Monitor order cancellations, lost revenue, and returns
+- Measure retention, average session duration, and AOV
+- Build a dynamic and insightful Power BI dashboard for stakeholders
+
+---
+
+## 📸 Snapshots from Dashboard
+  ### Overview
+![E-Commerce Dashboard Page 1](E-Commerce/E-Commerce%20_page-0001.jpg)
+  ### Product Performance
+![E-Commerce Dashboard Page 2](E-Commerce/E-Commerce%20_page-0002.jpg)
+  ### Customer 360
+![E-Commerce Dashboard Page 3](E-Commerce/E-Commerce%20_page-0003.jpg)
+  ### Order Issues
+![E-Commerce Dashboard Page 4](E-Commerce/E-Commerce%20_page-0004.jpg)
 
 ---
 
@@ -21,62 +33,59 @@ This project is a **data analytics dashboard** for an E-Commerce platform, cover
 - **Order Cancellation Rate:** ~19.7%  
 - **Retention Rate:** 92.77%  
 - **Top Customer Segment:** VIPs (75%)  
-- **Average Product Price:** $485.12  
-- **Average Session Duration:** ~62 minutes  
+- **Lost Revenue:** $9.5M  
+- **Avg. Product Price:** $485.12  
+- **Avg. Session Duration:** ~62 minutes  
 
 ---
 
 ## 📌 Features Included
 
-- Interactive filters by **category**, **product**, and **customer segment**
-- KPI cards tracking growth (MoM)
-- Analysis by **weekday vs weekend behavior**
-- Product association analysis (frequently bought together)
-- Return reasons by **supplier** and **product**
-- Visualized metrics by **month**, **segment**, and **performance tiers**
+- Interactive filtering by product, category, segment, supplier
+- Weekly vs weekend ordering behavior analysis
+- High cancellation and return reasons with supplier performance
+- Product co-purchase frequency matrix
+- RFM metrics, AOV, and frequency by customer
+- VIP and Loyal segmentation with behavior patterns
 
 ---
 
-## 🧰 Tools Used
+## 🛠 Tools & Technologies Used
 
-- **Power BI** (Data Modeling, DAX, Visualization)
-- **Excel / CSV** (Data preprocessing - if applicable)
-
----
-
-## 🖼️ Screenshots
-
-> 📷 Add your dashboard screenshots here  
-> Example:
-> - KPIs Overview  
-> - Product Performance  
-> - Customer Segmentation  
-> - Returns & Lost Revenue
+- **Excel** — as the original data source  
+- **Power Query** — for cleaning and transformation  
+- **DAX** — for calculating KPIs and segmentation logic  
+- **Power BI Desktop** — for data modeling and visual development  
+- **GitHub** — version control and hosting
 
 ---
 
-## 💡 Takeaways
+## 🧱 Data Model
 
-This dashboard empowers stakeholders to:
-- Identify underperforming areas
-- Improve customer retention strategies
-- Make data-informed marketing and inventory decisions
-- Track key metrics efficiently for executive decision-making
+The data was structured into a star schema for flexible analysis:
 
----
+- **Fact Table:** Orders  
+- **Dimension Tables:** Product, Category, Customer, Date, Supplier
 
-## 📁 Dataset
-
-The dataset used in this project is **simulated** or anonymized and contains:
-- 250 customers
-- 600 products across 20 categories
-- Over 90,000 product transactions
+This schema enables multi-angle exploration by time, customer, and product performance.
 
 ---
 
-## ✍️ Author
+## 📁 Project Files
 
-**Omar Wahby**  
-Power BI | SQL | Data Analytics | Business Intelligence  
-[LinkedIn](https://www.linkedin.com/in/your-profile) <!-- Replace with your actual LinkedIn -->
+- 📊 [View Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiY2ZkYWRmZTktZTE3OS00YjBmLWI2ODQtMDA2MDA3MTVjMGQ4IiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9) 
+- 📄 [View Dashboard PDF](https://github.com/OmarAhmedWahby/E-commerce_Analytics/blob/main/E-commerce%20Analysis%20Document%20.pdf) 
+- 📂 [Download Power BI File (.pbix)](https://github.com/OmarAhmedWahby/E-commerce_Analytics/blob/main/E-Commerce%20Project.pbix)
+
+> Note: Open the `.pbix` file using Power BI Desktop to explore the interactive report and all calculations.
+
+---
+
+## 👨‍💻 Author
+
+### Omar Ahmed Wahby  
+- [LinkedIn](https://www.linkedin.com/in/omarwahby35)  
+- [GitHub](https://github.com/OmarAhmedWahby)
+
+
 
