@@ -14,6 +14,9 @@ This project presents a business intelligence dashboard for an E-Commerce platfo
 
 ---
 
+## 📊 [View Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiY2ZkYWRmZTktZTE3OS00YjBmLWI2ODQtMDA2MDA3MTVjMGQ4IiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9) 
+
+
 ## 📸 Snapshots from Dashboard
   ### Overview
 ![E-Commerce Dashboard Page 1](E-Commerce/E-Commerce%20_page-0001.jpg)
